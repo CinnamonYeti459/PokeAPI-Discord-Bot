@@ -1,0 +1,28 @@
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.csproj.AssemblyReference.cache
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.AssemblyInfoInputs.cache
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.AssemblyInfo.cs
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.csproj.CoreCompileInputs.cache
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Discord Bot.exe
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Discord Bot.deps.json
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Discord Bot.runtimeconfig.json
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Discord Bot.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Discord Bot.pdb
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\DSharpPlus.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\DSharpPlus.CommandsNext.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Wrapper.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\PokeAPI Wrapper.pdb
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI .3CED311B.Up2Date
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\refint\PokeAPI Discord Bot.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.pdb
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.genruntimeconfig.cache
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\ref\PokeAPI Discord Bot.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\config.json
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\ConcurrentCollections.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\DSharpPlus.Interactivity.dll
+C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.sourcelink.json

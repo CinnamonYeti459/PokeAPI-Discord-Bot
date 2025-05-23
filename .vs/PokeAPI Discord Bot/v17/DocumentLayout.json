@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\pokecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\pokecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|c:\\users\\roodi\\desktop\\portfolio\\pokeapi discord bot\\pokeapi discord bot\\pokeapi discord bot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5562FC0-E73E-4274-8F82-F98C1C7F291A}|PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj|solutionrelative:pokeapi discord bot\\pokeapi discord bot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 254,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Globals.cs",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\Globals.cs",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Globals.cs",
+              "RelativeToolTip": "PokeAPI Discord Bot\\Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:47:40.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Utility.cs",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\Utility.cs",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Utility.cs",
+              "RelativeToolTip": "PokeAPI Discord Bot\\Utility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:52:25.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokeAPI Discord Bot.csproj",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj",
+              "RelativeToolTip": "PokeAPI Discord Bot\\PokeAPI Discord Bot.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-19T22:38:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokeCommands.cs",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\PokeCommands.cs",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\PokeCommands.cs",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\PokeCommands.cs",
+              "RelativeToolTip": "PokeAPI Discord Bot\\PokeCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:22:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\config.json",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\config.json",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\config.json",
+              "RelativeToolTip": "PokeAPI Discord Bot\\config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T22:11:43.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Program.cs",
+              "RelativeDocumentMoniker": "PokeAPI Discord Bot\\Program.cs",
+              "ToolTip": "C:\\Users\\roodi\\Desktop\\Portfolio\\PokeAPI Discord Bot\\PokeAPI Discord Bot\\Program.cs",
+              "RelativeToolTip": "PokeAPI Discord Bot\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:06:32.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
