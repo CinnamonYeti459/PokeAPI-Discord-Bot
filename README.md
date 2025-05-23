@@ -2,15 +2,28 @@
 
 A C# Discord bot that fetches Pokémon info and plays a guess-the-Pokémon game using PokeAPI.
 
-## Commands
+## Pokémon Bot Commands
 
-🔍 `!pokemon [name/blank]`  
-Shows information about a specific Pokémon by name or fetches a random Pokémon's details if you use `!pokemon`.
-    ![Showcase of how you request pokemon information](Images/Pokemon.png)
+🔍 `!pokemon [name] [shiny (optional)]`  
+Shows information about a specific Pokémon by name. You can add **shiny** at the end to get the shiny version.  
+Examples:  
+!pokemon bulbasaur  
+!pokemon bulbasaur shiny  
+![Showcase of how you request pokemon information](Images/Pokemon.png)
+
+🔀 `!random [shiny (optional)]`  
+Fetches a random Pokémon with a 50% chance to be shiny automatically. You can also force shiny with **shiny** (optional).  
+Examples:  
+!random  
+!random shiny
 
 ❓ `!guess`  
-Starts a guessing game where the bot displays a hidden Pokémon's image, and you have 10 seconds to guess which Pokémon it is!
-    ![Showcase of how the guess game works](Images/Guess.png)
+Starts a guessing game where a hidden Pokémon’s image is displayed and you have 15 seconds to guess which Pokémon it is!  
+![Showcase of how the guess game works](Images/Guess.png)
+
+😭 `!togglecry`  
+Toggles whether the bot sends Pokémon cry audio files in chat.  
+*Only server managers can use this command.*
 
 
 ## How it works
@@ -22,12 +35,19 @@ This bot uses the [PokemonApiWrapper](https://github.com/CinnamonYeti459/Pokemon
 
 - Download the repo
 - Download DSharpPlus, DSharpPlus.CommandsNext, DSharpPlus.Interactivity, Newtonsoft.Json and my API wrapper for PokeAPI on my GitHub
-- Edit the config.json to include your own bot token
+- Add a `config.json` file to your VS project to include your own bot token and prefix.  
+  Use the following format:
+`{
+  "Token": "your-bot-token-here",
+  "Prefix": "!"
+}`
+
 - Invit the bot to your server and have fun
 
 
 ## Coming Soon
-- More detailed Pokémon information, including abilities, various sprites (like shiny versions), and additional features.
+
+- More detailed Pokémon information, including abilities, ~~various sprites (like shiny versions)~~, and additional features.
 
 
 ## License
