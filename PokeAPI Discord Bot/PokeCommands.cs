@@ -122,6 +122,157 @@ namespace PokeAPI_Discord_Bot
             }
         }
 
+        [Command("funfact")]
+        public async Task FunFact(CommandContext ctx)
+        {
+            var funFacts = new List<string>
+            {
+                "💡 Pikachu was not the original mascot of Pokémon — it was Clefairy!",
+                "🔥 Charizard is not a Dragon-type Pokémon unless it's in Mega Evolution X form.",
+                "🐉 Gyarados was originally planned to be a Water/Dragon type, but was changed to Water/Flying.",
+                "👻 The Pokémon Kadabra was banned from the TCG for years due to a lawsuit from a magician.",
+                "🥚 Every Pokémon hatches from an egg — even Legendaries in non-canon games.",
+                "👀 Wobbuffet's actual body might be its tail — not the big blue part!",
+                "💪 Machamp can throw 500 punches in one second.",
+                "🌕 Lunatone was first discovered at the site of a meteor crash.",
+                "🔁 Ditto and Mew share almost identical stats and both can learn Transform.",
+                "🧠 Alakazam’s brain constantly grows, giving it an IQ of 5000.",
+                "🦇 Zubat has no eyes, but it navigates using echolocation.",
+                "🌿 Bulbasaur is the only starter Pokémon that is part Poison-type.",
+                "🐢 Blastoise’s water cannons can blast holes through steel.",
+                "🔮 Espeon’s fur acts as a sensor to predict its opponent’s moves.",
+                "🧊 Regice’s body is made of Antarctic ice that never melts.",
+                "🦊 Ninetales is said to live for 1,000 years and curses anyone who touches its tails.",
+                "🌩️ Jolteon generates electricity using the negative ions in the atmosphere.",
+                "🌌 Deoxys’ form changes depending on the game version it's in.",
+                "🕳️ Diglett’s true body is still a mystery — it might be huge underground.",
+                "🐲 Dragonite can circle the globe in just 16 hours.",
+                "🍥 Swirlix's fur is made of cotton candy — and it's sticky to the touch.",
+                "🥶 Froslass freezes its prey and displays them like trophies.",
+                "💀 Cubone wears the skull of its deceased mother.",
+                "🎭 Zoroark can create illusions so realistic they affect all five senses.",
+                "🌿 Chikorita waves its leaf to check the temperature and humidity.",
+                "🔧 Magnemite is often seen at power plants absorbing electricity.",
+                "🌊 Kyogre has the power to expand the oceans.",
+                "🔥 Entei is said to erupt a volcano whenever it roars.",
+                "🕒 Celebi can travel through time and appears during times of peace.",
+                "🧬 Porygon was the first Pokémon to be made entirely of programming code.",
+                "🗿 Nosepass always points north, like a living compass.",
+                "🌕 Munna eats dreams and emits dream mist from its forehead.",
+                "🎃 Gourgeist sings eerily on moonless nights.",
+                "🐉 Salamence only achieved flight through intense desire over many generations.",
+                "🪙 Meowth is one of the few Pokémon that can speak human language.",
+                "👁️ Shedinja has a hole in its back — looking into it supposedly steals your soul.",
+                "🧛‍♂️ Gliscor uses sound waves to track prey at night like a vampire bat.",
+                "🧵 Banette is a doll that came to life due to a grudge.",
+                "🛡️ Aegislash can control people with its spectral powers.",
+                "🕷️ Galvantula uses electrically charged threads to trap prey.",
+                "⚙️ Klink starts rotating when born and never stops.",
+                "🌫️ Drifloon tries to steal children — it’s said to be formed from lost spirits.",
+                "🌪️ Rayquaza lives in the ozone layer and calms the weather duels of Kyogre and Groudon.",
+                "🪨 Sudowoodo pretends to be a tree, but it's actually a Rock-type.",
+                "🌙 Darkrai can cause nightmares and becomes active during the new moon.",
+                "🍽️ Snorlax’s diet consists of nearly 900 pounds of food per day.",
+                "🐌 Magcargo's body temperature is hotter than the surface of the sun.",
+                "🪦 Yamask carries a mask of its former human face and cries when it looks at it.",
+                "🛸 Beheeyem can manipulate memories and is believed to come from space.",
+                "🌊 Milotic is considered the most beautiful Pokémon and is known to calm hostility.",
+                "🧟‍♂️ Phantump is created when a spirit possesses a tree stump.",
+                "🏋️‍♂️ Conkeldurr teaches humans how to build using concrete.",
+                "🦖 Tyrantrum was considered the king of the ancient world.",
+                "👂 Exploud uses its voice to attack, communicate, and even drill through rock.",
+                "🧼 Sinistea may be fake — some are said to be possessed cups instead of real antiques.",
+                "🌱 Oddish plants itself during the day and moves at night to find better soil.",
+                "⚡ Electrode is known as the 'Pokémon Bomb' because it can explode spontaneously.",
+                "🦜 Pidgeot can fly at speeds up to 150 mph.",
+                "💨 Ninjask is one of the fastest Pokémon, reaching speeds of 60 mph in flight.",
+                "🛡️ Shieldon could survive a Tyrantrum’s attack due to its strong shield-like head.",
+                "🕸️ Spinarak uses silk threads as traps to capture prey.",
+                "🦀 Kingler’s claw can crush anything, even hard metal.",
+                "🦄 Rapidash can run faster than a car at full speed.",
+                "💥 Exploud’s sound waves are so powerful they can shatter boulders.",
+                "❄️ Glaceon’s fur is like diamond-hard ice crystals.",
+                "💎 Diancie can create diamonds by compressing carbon in its body.",
+                "🐉 Haxorus has tusks that can cut through steel beams.",
+                "🌟 Jirachi awakens every thousand years to grant wishes.",
+                "🔥 Magmar’s body temperature is about 18,000°F, hotter than lava.",
+                "🦇 Noibat uses ultrasonic waves to communicate and navigate in dark caves.",
+                "💨 Talonflame is known for its incredible speed and agility in the air.",
+                "🛶 Corsola can regenerate lost branches and heal itself.",
+                "🧙‍♂️ Gardevoir can sense its Trainer’s feelings and will protect them at all costs.",
+                "⚙️ Klefki collects keys and uses them to defend itself.",
+                "🦢 Swanna is graceful and uses its wings to create powerful gusts.",
+                "🌞 Solgaleo’s body is said to be made of the sun’s rays.",
+                "🕷️ Ariados uses its venom to immobilize prey and defend itself.",
+                "🎇 Volcanion can shoot steam hot enough to melt rock from its arms.",
+                "🌬️ Tornadus is a legendary Pokémon known for causing violent storms.",
+                "🧊 Vanilluxe can freeze moisture in the air to form ice crystals.",
+                "🦅 Braviary is known for its courage and can carry a human in its talons.",
+                "🌪️ Tornadus can create powerful tornadoes and gusts of wind.",
+                "🌋 Heatran lives inside volcanoes and controls magma flow.",
+                "🦉 Noctowl can see in the dark and rotate its head nearly 180 degrees.",
+                "🕸️ Ariados spins strong webs that can trap even large Pokémon.",
+                "🐬 Dewgong can swim backwards at high speeds.",
+                "🌜 Lunala can absorb moonlight and open portals to other dimensions.",
+                "🌿 Sawsbuck changes its fur and antlers based on the seasons.",
+                "🐉 Dragapult can launch its young from its horns as projectiles.",
+                "🐢 Torkoal’s shell can heat up to 1,100 degrees Fahrenheit.",
+                "🐉 Hydreigon has three heads and can fly despite its heavy body.",
+                "🐛 Caterpie uses its antenna to sense danger.",
+                "🦀 Crabrawler fights with its powerful claws and can punch through rock.",
+                "🌊 Lapras is known for ferrying people across water bodies.",
+                "⚡ Pachirisu stores electricity in its cheeks like a squirrel.",
+                "🧙‍♀️ Mismagius uses spells to curse its enemies.",
+                "🌑 Darkrai hides in shadows and can put people to sleep with nightmares.",
+                "🌟 Magearna was created by scientists and contains a soul inside its body.",
+                "🦋 Beautifly has colorful wings and feeds on flower nectar.",
+                "🦀 Kingler’s claws are so strong they can lift over 2200 lbs.",
+                "🌿 Tropius has bananas growing from its neck and uses them as food.",
+                "🦅 Talonflame is the fastest Pokémon to evolve mid-flight.",
+                "🔥 Blaziken’s legs can burn up to 3200 degrees Fahrenheit.",
+                "🦀 Crustle carries large rocks on its back as weapons and protection.",
+                "⚡ Zapdos controls electricity and is one of the legendary birds.",
+                "🌪️ Swellow can dive at over 200 mph to attack.",
+                "🐍 Seviper uses its poisonous tail in battles with Zangoose.",
+                "🦊 Vulpix’s six tails grow longer and stronger with age.",
+                "🐦 Pidgeotto’s keen eyesight can spot prey from miles away.",
+                "🕸️ Sableye lives in caves and can see in complete darkness.",
+                "🐳 Wailord is the largest known Pokémon and can weigh over 4000 lbs.",
+                "🦔 Sandslash curls into a ball and rolls to attack.",
+                "🐇 Bunnelby uses its strong ears to dig underground.",
+                "🦀 Kingler’s claw snaps so loudly it can stun opponents.",
+                "🐦 Murkrow is considered a bad omen in some cultures.",
+                "🌿 Leavanny weaves leaves into clothing for other Pokémon.",
+                "🐉 Garchomp is a fast and powerful dragon with sharp fins.",
+                "🦋 Butterfree releases toxic scales to defend itself.",
+                "🐢 Turtwig uses the leaf on its head for photosynthesis.",
+                "🦝 Zigzagoon’s zigzagging movement confuses predators.",
+                "🌊 Starmie glows with a mysterious inner light.",
+                "🦅 Fearow is capable of flying great distances at high speed.",
+                "🔥 Talonflame uses its fiery feathers to intimidate foes.",
+                "🧟‍♂️ Phantump is said to be the spirit of a child trapped in a tree stump."
+            };
+
+            var randomFact = funFacts[random.Next(funFacts.Count)];
+
+            var embed = new DiscordEmbedBuilder()
+                .WithTitle("🎓 Pokémon Fun Fact")
+                .WithDescription(randomFact)
+                .WithColor(DiscordColor.Azure);
+
+            await ctx.RespondAsync(embed.Build());
+        }
+
+
+        [Command("togglecry")]
+        [RequirePermissions(Permissions.ManageGuild)] // Manage Guild is server management permissions
+        public async Task ToggleCryCommand(CommandContext ctx)
+        {
+            Globals.canSendCry = !Globals.canSendCry;
+            string status = Globals.canSendCry ? "enabled" : "disabled";
+            await ctx.RespondAsync($"Cry sounds are now **{status}**.");
+        }
+
         private static async Task SendPokemonEmbed(CommandContext ctx, Pokemon pokemon, bool isShiny)
         {
             string title = Utility.CapitalizeFirstLetter(pokemon.Name);
@@ -163,15 +314,6 @@ namespace PokeAPI_Discord_Bot
 
                 await ctx.Channel.SendMessageAsync(messageBuilder);
             }
-        }
-
-        [Command("togglecry")]
-        [RequirePermissions(Permissions.ManageGuild)] // Manage Guild is server management permissions
-        public async Task ToggleCryCommand(CommandContext ctx)
-        {
-            Globals.canSendCry = !Globals.canSendCry;
-            string status = Globals.canSendCry ? "enabled" : "disabled";
-            await ctx.RespondAsync($"Cry sounds are now **{status}**.");
         }
 
     }

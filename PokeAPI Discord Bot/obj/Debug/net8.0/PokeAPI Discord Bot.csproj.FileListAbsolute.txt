@@ -22,7 +22,6 @@ C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Deb
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.pdb
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.genruntimeconfig.cache
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\ref\PokeAPI Discord Bot.dll
-C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\config.json
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\ConcurrentCollections.dll
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\bin\Debug\net8.0\DSharpPlus.Interactivity.dll
 C:\Users\roodi\Desktop\Portfolio\PokeAPI Discord Bot\PokeAPI Discord Bot\obj\Debug\net8.0\PokeAPI Discord Bot.sourcelink.json

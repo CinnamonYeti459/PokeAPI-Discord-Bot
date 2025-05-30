@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeAPI Discord Bot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+686f2836bd9ce089a8ae70e37dae499d15f11bf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+988e0f5b2d7f7d7831507b3462ea138a64e03e72")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeAPI Discord Bot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeAPI Discord Bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
