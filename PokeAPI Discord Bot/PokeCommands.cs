@@ -258,11 +258,103 @@ namespace PokeAPI_Discord_Bot
             var embed = new DiscordEmbedBuilder()
                 .WithTitle("🎓 Pokémon Fun Fact")
                 .WithDescription(randomFact)
-                .WithColor(DiscordColor.Azure);
+                .WithColor(DiscordColor.Goldenrod);
 
             await ctx.RespondAsync(embed.Build());
         }
 
+        [Command("location")]
+        public async Task GetLocation(CommandContext ctx, [RemainingText] string name)
+        {
+            Console.WriteLine($"Command received: location {name}");
+
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                await ctx.RespondAsync("Please specify a Pokémon name.");
+                return;
+            }
+
+            var pokemon = await PokeApiWrapper.GetPokemonAsync(name);
+            if (pokemon == null)
+            {
+                await ctx.RespondAsync("Pokémon not found!");
+                return;
+            }
+
+            var embed = new DiscordEmbedBuilder()
+                .WithTitle("🎓 Pokémon Fun Fact")
+                .WithDescription($"Location: {pokemon.LocationAreaEncounters}")
+                .WithColor(DiscordColor.SpringGreen);
+
+            await ctx.RespondAsync(embed.Build());
+        }
+
+        [Command("scramble")]
+        public async Task ScramblePokemon(CommandContext ctx)
+        {
+            // Get a random Pokémon
+            int randomId = random.Next(1, 1026);
+            var pokemon = await PokeApiWrapper.GetPokemonAsync(randomId.ToString());
+
+            if (pokemon == null)
+            {
+                await ctx.RespondAsync("Failed to fetch a Pokémon. Try again!");
+                return;
+            }
+
+            string originalName = pokemon.Name.ToLower();
+
+            // Scrambled name
+            string scrambled = ScrambleWord(originalName);
+
+            // If it's the same scramble again
+            if (scrambled == originalName)
+                scrambled = ScrambleWord(originalName);
+
+            var embed = new DiscordEmbedBuilder()
+                .WithTitle("🧩 Scrambled Pokémon Name!")
+                .WithDescription($"Unscramble this: **{scrambled}**\n_You have 15 seconds to guess!_")
+                .WithColor(DiscordColor.Violet);
+
+            await ctx.RespondAsync(embed.Build());
+
+            // Wait for response
+            var interactivity = ctx.Client.GetInteractivity();
+
+            var guessResult = await interactivity.WaitForMessageAsync(m => m.ChannelId == ctx.Channel.Id && m.Author.Id == ctx.User.Id, TimeSpan.FromSeconds(15));
+
+            if (!guessResult.TimedOut)
+            {
+                var guess = guessResult.Result.Content.Trim().ToLower();
+
+                if (guess == originalName)
+                {
+                    await ctx.RespondAsync($"🎉 Correct! It was **{Utility.CapitalizeFirstLetter(originalName)}**!");
+                }
+                else
+                {
+                    await ctx.RespondAsync($"❌ Nope! The correct answer was **{Utility.CapitalizeFirstLetter(originalName)}**.");
+                }
+            }
+            else
+            {
+                await ctx.RespondAsync($"⏰ Time's up! The answer was **{Utility.CapitalizeFirstLetter(originalName)}**.");
+            }
+        }
+
+        // Scramble helper
+        private static string ScrambleWord(string word)
+        {
+            var chars = word.ToCharArray(); // Turns word to an array
+            var rng = new Random(); // Creates a random number generator var
+            int n = chars.Length; //
+            while (n > 1) // If there's more than 1 character to swap 
+            {
+                int k = rng.Next(n--); // Selects a random character to replace and removes a char from n to ensure the same char cannot be chosen
+                (chars[n], chars[k]) = (chars[k], chars[n]); // Swaps the characters at n with k
+            }
+            return new string(chars);
+        }
 
         [Command("togglecry")]
         [RequirePermissions(Permissions.ManageGuild)] // Manage Guild is server management permissions
