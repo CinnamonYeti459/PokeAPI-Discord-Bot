@@ -50,6 +50,11 @@ This bot uses the [PokemonApiWrapper](https://github.com/CinnamonYeti459/Pokemon
 - More detailed Pokémon information, including abilities, ~~various sprites (like shiny versions)~~, and additional features.
 
 
+## TODO
+- Add more comments to the commands .cs file
+- Updat the images and available commands on the README.md
+
+
 ## License
 
 This project is open source. Feel free to contribute or report issues!
